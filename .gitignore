@@ -1,0 +1,39 @@
+# Python / Cocotb
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+results.xml
+waves.vcd
+
+# Cocotb build artifacts
+sim_build/
+*.vvp
+
+# Gowin EDA build artifacts
+gowin_project/
+impl/
+*.fs
+*.bin
+*.log
+*.json
+build_snapshot.tcl
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
