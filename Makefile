@@ -23,7 +23,7 @@ build: build/build.tcl build/constraints.cst src/top.v
 
 # Program FPGA using openFPGALoader
 program: $(BITSTREAM_PATH)
-	$(OPENFPGALOADER) -b gowin $(BITSTREAM_PATH)
+	$(OPENFPGALOADER) $(BITSTREAM_PATH)
 
 # Remove cocotb build outputs, waveform, and Gowin build artifacts
 clean::
